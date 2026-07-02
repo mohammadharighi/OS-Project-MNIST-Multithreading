@@ -1,3 +1,6 @@
+حتماً — این **کل فایل README.md یک‌جا** است (همه‌چیز با هم داخل یک کدبلاک، بدون جدا کردن هیچ بخش). فقط کامل کپی کن و داخل `README.md` بذار:
+
+```markdown
 # Multithreaded CNN Training on MNIST (Operating Systems Final Project)
 
 This repository contains a complete, self-contained implementation of a Convolutional Neural Network (CNN) designed for the MNIST dataset. The project demonstrates core Operating Systems concepts, utilizing **native multithreading** and synchronization primitives like **Semaphores** and **Locks** to safely manage training, model states, and asynchronous requests.
@@ -31,5 +34,59 @@ Follow these steps to set up the project on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/multithreaded-mnist-cnn.git
-cd multithreaded-mnist-cnn
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Create and Activate Virtual Environment
+
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+Make sure you have the required packages installed:
+
+```bash
+pip install Flask numpy tensorflow
+```
+
+> Tip: If you prefer a reproducible setup, create a `requirements.txt` file and install via:
+> ```bash
+> pip install -r requirements.txt
+> ```
+
+### 4. Run the Server
+```bash
+python app.py
+```
+
+After starting the server, open your web browser and navigate to:
+```
+http://127.0.0.1:5000/
+```
+
+---
+
+## How to Use the UI
+
+1. **Configure Training Parameters:** Set the learning rate, number of training epochs, and batch size from the configuration panel.
+2. **Start Training:** Click the **Start Training** button. The frontend will dynamically stream loss and accuracy metrics via Server-Sent Events (SSE).
+3. **Canvas Drawing:** Draw any digit from `0-9` on the integrated HTML5 canvas. The background thread will safely read the weights using locks and display the predicted digit instantly.
+
+---
+
+## Developer
+
+**Mohammad Harighi**  
+Operating Systems Final Project
+```
