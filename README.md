@@ -1,6 +1,5 @@
-حتماً — این **کل فایل README.md یک‌جا** است (همه‌چیز با هم داخل یک کدبلاک، بدون جدا کردن هیچ بخش). فقط کامل کپی کن و داخل `README.md` بذار:
 
-```markdown
+
 # Multithreaded CNN Training on MNIST (Operating Systems Final Project)
 
 This repository contains a complete, self-contained implementation of a Convolutional Neural Network (CNN) designed for the MNIST dataset. The project demonstrates core Operating Systems concepts, utilizing **native multithreading** and synchronization primitives like **Semaphores** and **Locks** to safely manage training, model states, and asynchronous requests.
@@ -89,4 +88,4 @@ http://127.0.0.1:5000/
 
 **Mohammad Harighi**  
 Operating Systems Final Project
-```
+
