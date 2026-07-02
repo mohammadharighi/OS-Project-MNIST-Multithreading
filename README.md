@@ -77,6 +77,9 @@ http://127.0.0.1:5000/
 1. **Configure:** Set your desired learning rate and epochs on the web UI.
 2. **Train:** Hit "Start Training" and watch the real-time accuracy/loss graphs.
 3. **Predict:** Use the canvas to draw a digit (0-9) and see the CNN predict it instantly using the latest trained weights.
+---
+## Demo Video
+[Watch the video](https://my.files.ir/drive/s/4GOsmfj1VtXZEtYUKPoEcfcn9au6Z8)
 
 ---
 
