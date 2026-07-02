@@ -1,3 +1,5 @@
+![Project Cover](./pic.png)
+
 # Multithreaded CNN Training on MNIST (Operating Systems Final Project)
 
 This repository contains a complete, self-contained implementation of a Convolutional Neural Network (CNN) designed for the MNIST dataset. The project demonstrates core Operating Systems concepts, utilizing **native multithreading** and synchronization primitives like **Semaphores** and **Locks** to safely manage training, model states, and asynchronous requests.
