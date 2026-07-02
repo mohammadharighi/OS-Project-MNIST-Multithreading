@@ -78,8 +78,13 @@ http://127.0.0.1:5000/
 2. **Train:** Hit "Start Training" and watch the real-time accuracy/loss graphs.
 3. **Predict:** Use the canvas to draw a digit (0-9) and see the CNN predict it instantly using the latest trained weights.
 ---
-## Demo Video
-[Watch the video](https://my.files.ir/drive/s/4GOsmfj1VtXZEtYUKPoEcfcn9au6Z8)
+## How to Run & Usage Guide
+
+To understand how to set up, run, and interact with this project, you can watch the step-by-step walkthrough video:
+
+[![Watch the walkthrough](https://img.shields.io/badge/Watch-Walkthrough%20Video-blue?style=for-the-badge&logo=playstation5)](https://my.files.ir/drive/s/4GOsmfj1VtXZEtYUKPoEcfcn9au6Z8)
+
+> 💡 **Note:** This video covers the environment setup, running the main scripts, and a demonstration of the project in action.
 
 ---
 
