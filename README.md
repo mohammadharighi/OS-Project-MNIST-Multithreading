@@ -15,6 +15,7 @@ To ensure all folder structures and dependencies are correctly placed, the proje
 - Extract the contents to a folder of your choice.
 Enter the extracted folder
 Suggestion: Navigate to the following folder after extracting the project:
+
 OS-Project-MNIST-Multithreading-main/OS-Project-MNIST-Multithreading-main/cnnproject/cnn_project/cnn_project
 
 ### 2. Create and Activate Virtual Environment
