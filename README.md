@@ -41,7 +41,6 @@ Once the virtual environment is active, install the necessary libraries:
 pip install Flask numpy tensorflow Pillow
 ```
 
-*(Note: If you have a `requirements.txt` file included in the ZIP, you can alternatively run: `pip install -r requirements.txt`)*
 
 ### 4. Run the Application
 Start the Flask server by running:
@@ -71,7 +70,6 @@ http://127.0.0.1:5000/
 - **`cnn.py`:** Core neural network logic and multithreaded training implementation.
 - **`app.py`:** Flask web server and thread management logic.
 - **`index.html`:** Interactive dashboard and drawing canvas for users.
-- **`requirements.txt`:** List of all required Python packages.
 
 ---
 
