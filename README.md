@@ -13,10 +13,13 @@ To ensure all folder structures and dependencies are correctly placed, the proje
 ### 1. Download and Extract
 - Download `cnnproject.zip` from this repository.
 - Extract the contents to a folder of your choice.
+Enter the extracted folder
+Suggestion: Navigate to the following folder after extracting the project:
+OS-Project-MNIST-Multithreading-main/OS-Project-MNIST-Multithreading-main/cnnproject/cnn_project/cnn_project
 
 ### 2. Create and Activate Virtual Environment
 Open your terminal or command prompt inside the extracted folder and run:
-
+after extract 
 **Windows:**
 ```bash
 python -m venv venv
